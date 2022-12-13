@@ -14,7 +14,9 @@ import { PromDescComponent } from './components/prom-desc/prom-desc.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgetPasswordComponent } from './components/sign-up/forget-password/forget-password.component';
 import { FormRegisterComponent } from './components/sign-up/form-register/form-register.component';
-import { InventarioComponent } from './components/inventario/inventario.component'
+import { InventarioComponent } from './components/inventario/inventario.component';
+import { FacturaComponent } from './components/factura/factura.component';
+import { ListFacturaComponent } from './components/list-factura/list-factura.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { InventarioComponent } from './components/inventario/inventario.componen
     SignUpComponent,
     ForgetPasswordComponent,
     FormRegisterComponent,
-    InventarioComponent
+    InventarioComponent,
+    FacturaComponent,
+    ListFacturaComponent
   ],
   imports: [
     BrowserModule,
