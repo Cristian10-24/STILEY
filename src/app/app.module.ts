@@ -17,7 +17,8 @@ import { FormRegisterComponent } from './components/sign-up/form-register/form-r
 import { InventarioComponent } from './components/inventario/inventario.component';
 import { FacturaComponent } from './components/factura/factura.component';
 import { ListFacturaComponent } from './components/list-factura/list-factura.component';
-import { ProductosMasculinosComponent } from './components/productos-masculinos/productos-masculinos.component'
+import { ProductosMasculinosComponent } from './components/productos-masculinos/productos-masculinos.component';
+import { EjemploComponent } from './components/ejemplo/ejemplo.component'
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProductosMasculinosComponent } from './components/productos-masculinos/
     InventarioComponent,
     FacturaComponent,
     ListFacturaComponent,
-    ProductosMasculinosComponent
+    ProductosMasculinosComponent,
+    EjemploComponent
   ],
   imports: [
     BrowserModule,
