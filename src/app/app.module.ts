@@ -13,7 +13,8 @@ import { ContactUsComponent } from './components/home/contact-us/contact-us.comp
 import { PromDescComponent } from './components/prom-desc/prom-desc.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgetPasswordComponent } from './components/sign-up/forget-password/forget-password.component';
-import { FormRegisterComponent } from './components/sign-up/form-register/form-register.component'
+import { FormRegisterComponent } from './components/sign-up/form-register/form-register.component';
+import { InventarioComponent } from './components/inventario/inventario.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormRegisterComponent } from './components/sign-up/form-register/form-r
     PromDescComponent,
     SignUpComponent,
     ForgetPasswordComponent,
-    FormRegisterComponent
+    FormRegisterComponent,
+    InventarioComponent
   ],
   imports: [
     BrowserModule,
