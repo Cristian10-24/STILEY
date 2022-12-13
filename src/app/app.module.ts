@@ -16,7 +16,8 @@ import { ForgetPasswordComponent } from './components/sign-up/forget-password/fo
 import { FormRegisterComponent } from './components/sign-up/form-register/form-register.component';
 import { InventarioComponent } from './components/inventario/inventario.component';
 import { FacturaComponent } from './components/factura/factura.component';
-import { ListFacturaComponent } from './components/list-factura/list-factura.component'
+import { ListFacturaComponent } from './components/list-factura/list-factura.component';
+import { ProductosMasculinosComponent } from './components/productos-masculinos/productos-masculinos.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ListFacturaComponent } from './components/list-factura/list-factura.com
     FormRegisterComponent,
     InventarioComponent,
     FacturaComponent,
-    ListFacturaComponent
+    ListFacturaComponent,
+    ProductosMasculinosComponent
   ],
   imports: [
     BrowserModule,
